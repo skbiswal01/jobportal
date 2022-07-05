@@ -12,6 +12,10 @@ app.use(express.json());
 app.use('/api/auth', require('./routes/auth'))
 app.use('/', require('./routes/jobs'))
 
+app.get("/", (req, res) => {
+    res.send("Express on Vercel");
+  });
+  
 app.listen(5000, ()=>{
     console.log(`job portal listening at port 5000`)
 })
