@@ -15,4 +15,14 @@ router.get('/fetchalljobs', async (req, res)=>{
    
 })
 
+router.get('', async (req, res)=>{
+    try {
+        res.send("deployed successfully")
+    } catch (error) {
+        res.status(500).send("some error occured");
+    }
+    
+   
+})
+
 module.exports = router;
