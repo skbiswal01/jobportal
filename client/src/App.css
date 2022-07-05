@@ -1,0 +1,63 @@
+body{
+  background: url("https://semidotinfotech.com/web/images/job-portal-development.jpg");
+}
+.Navbar {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  padding:0 20px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(86, 86, 192);
+  font-size: 30px;
+  color: white;
+}
+.sign{
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.sign > button{
+  background: transparent;
+  font-size: 20px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.App > h1{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 60px;
+}
+form{
+  height: 400px;
+  width: 30%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+form>input , button{
+  height: 9%;
+  font-size: 20px;
+}
+button{
+  background-color: rgb(84, 145, 224);
+  border: none;
+}
+.Home{
+  display: flex;
+  justify-content: center;
+}
+.content{
+  width: 80%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
